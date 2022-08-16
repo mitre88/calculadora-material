@@ -1,0 +1,78 @@
+html {
+  background: linear-gradient(to bottom, #f827ce 0%, #c7e107 100%);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(20, 105, 144);
+  font-size: 1.5em;
+  font-style: verdana;
+}
+
+.calculator {
+  width: 300px;
+  height: 470px;
+  background-color: #f2f6ee;
+  margin: 0 auto;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 1.5px solid #000;
+  text-align: center;
+}
+
+.calculator__screen {
+  width: 90%;
+  height: 100px;
+  font-size: 50px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  color: rgb(1, 4, 12);
+  text-align: right;
+  background: transparent;
+}
+
+.calculator__keypad {
+  border-top: 1px solid #000;
+}
+
+.btn {
+  background-color: #c6d2d1;
+  width: 75px;
+  height: 75px;
+  float: left;
+  font-size: 30px;
+  color: rgb(12, 1, 1);
+  border: 0;
+  font-weight: 300;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.btn-double {
+  width: 150px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.btn-dark {
+  background-color: #1de99e;
+}
+
+.btn-orange {
+  background-color: #ee845a;
+}
+
+.btn:nth-child(4n),
+.btn:last-child {
+  border-right: 0;
+}
+
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  opacity: 0.5;
+}
