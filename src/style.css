@@ -1,5 +1,5 @@
 html {
-  background: linear-gradient(to bottom, #f827ce 0%, #c7e107 100%);
+  background: linear-gradient(to bottom, #666bf1 0%, #df42f1 100%);
   background-repeat: no-repeat;
   height: 100%;
 }
@@ -29,13 +29,13 @@ h1 {
   padding: 0;
   border: 0;
   border-radius: 6px;
-  color: rgb(1, 4, 12);
+  color: rgb(94, 178, 204);
   text-align: right;
   background: transparent;
 }
 
 .calculator__keypad {
-  border-top: 1px solid #000;
+  border-top: 1px solid rgb(247, 244, 244);
 }
 
 .btn {
@@ -47,8 +47,8 @@ h1 {
   color: rgb(12, 1, 1);
   border: 0;
   font-weight: 300;
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-right: 1px solid rgb(247, 243, 243);
+  border-bottom: 1px solid rgb(251, 246, 246);
 }
 
 .btn-double {
